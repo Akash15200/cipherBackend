@@ -10,7 +10,7 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:3001',
-  'https://cfrontend-n.vercel.app/' // Add your deployed frontend URL
+  'https://cfrontend-n.vercel.app' // Add your deployed frontend URL
 ];
 
 app.use(cors({
